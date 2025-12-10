@@ -3,10 +3,10 @@
 
 // Simple impact numbers (you should update these with your real numbers)
 const impact = {
-  schools: 4,
-  students: 183,
-  supplies: 420,
-  volunteers: 12
+  schools: 0,
+  students: 0,
+  supplies: 0,
+  volunteers: 0
 };
 
 document.addEventListener('DOMContentLoaded', ()=>{
