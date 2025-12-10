@@ -3,7 +3,7 @@
 
 // Simple impact numbers (you should update these with your real numbers)
 const impact = {
-  schools: 0,
+  schools: 1,
   students: 0,
   supplies: 0,
   volunteers: 0
