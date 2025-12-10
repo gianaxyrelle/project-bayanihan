@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
       `Volunteer request from ${name} (${email})\n\nRole: ${role}\n\nMessage:\n${message}`
     );
     // open mail app with prefilled content (no external platform required)
-    window.location.href = `mailto:projectbayanihan@example.com?subject=Volunteer%20Request%20from%20${encodeURIComponent(name)}&body=${body}`;
+    window.location.href = `mailto:phprojectbayanihan@gmail.com?subject=Volunteer%20Request%20from%20${encodeURIComponent(name)}&body=${body}`;
     // also copy to clipboard
     const summary = `Volunteer request from ${name} (${email})\nRole: ${role}\nMessage: ${message}`;
     navigator.clipboard?.writeText(summary).catch(()=>{});
@@ -37,6 +37,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
   });
 
   mailtoBtn.addEventListener('click', ()=>{
-    window.location.href = 'mailto:projectbayanihan@example.com?subject=Interested%20in%20Volunteering';
+    window.location.href = 'mailto:phprojectbayanihan@gmail.com?subject=Interested%20in%20Volunteering';
   });
 });
