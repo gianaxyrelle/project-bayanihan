@@ -1,10 +1,12 @@
 
-/* Simple, clean responsive styles for Project Bayanihan */
+
 :root{
-  --accent:#0b6b4f;
-  --muted:#666;
-  --bg:#f9f9fb;
-  --card:#ffffff;
+ --accent: #ff6f61;  
+ --muted: #6c757d;  
+ --bg: #fff8f0;      
+ --card: #ffeedd;    
+ --highlight: #ffda77;
+ --secondary: #4aa96c; 
 }
 
 *{box-sizing:border-box}
